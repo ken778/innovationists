@@ -1,0 +1,752 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  scroll-behavior:smooth;
+}
+
+@media screen and (max-width: 540px) {
+  .desktop-view{
+    //display: none !important;
+    // display: block !important;
+    display: none !important;
+  }
+  .mobile-view{
+    display:grid !important;
+  }
+ 
+  header {
+    
+    a { 
+      font-size: 1rem;
+    }
+  }
+  .navbar-nav{
+  
+   
+
+        
+      a{
+        line-height: 2;
+      }
+
+  }
+  .navbar-toggler-icon{
+    outline: none !important;
+  }
+  #navbarNavAltMarkup{
+    
+     padding-left: -20px;
+  }
+
+  .pic img {
+    display: none;
+  }
+  .top-section {
+    width: 100% !important;
+    float: left !important;
+    background-color: darksalmon !important;
+    //display: none !important;
+    height: 65vh !important;
+    
+  }
+
+  //top section
+  .top-section .words {
+    min-width: 100% !important;
+    padding: 90px 20px 10px 24px !important;
+    margin: 0px !important;
+    
+    float: left;
+    left: 0% !important;
+  
+    h1 {
+      font-size: 45px !important;
+    }
+  }
+  .words h1 {
+    font-family: "Roboto", sans-serif;
+
+    font-size: 50px !important;
+    //color:rgb(233, 230, 230);
+    text-transform: capitalize;
+    line-height: 1;
+    color: black;
+  }
+  .navbar {
+   
+  }
+
+  //features section
+  .higlights-feature-section {
+    width: 100% !important;
+    float: left;
+    margin-top: 0px !important;
+          
+    //background-color: indigo;
+    //display: none;
+    .cards {
+      padding:  4% !important; 
+      //background-color: greenyellow;
+      display: block !important;
+      min-width: 100% !important;
+      float: left;
+      left: 0%;
+       margin-right: 30px !important;
+
+    }
+    .card:hover {
+      transform: scale(1.0) !important;
+      z-index: 2;
+    }
+    .card {
+      margin-top: 3% !important;       
+      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.6);
+    
+      font-family: "Roboto", sans-serif;
+      text-decoration: none;
+      text-transform: capitalize;
+       i {
+        font-size: 2rem !important;
+        color: rgb(47, 202, 47);
+      }
+      h1{
+         font-size: 1.5rem !important;
+      }
+    }
+    .header2{
+      margin:  0px !important;
+      padding: 10px 0px 10px 0px !important;       
+      //background-color: deepskyblue !important;
+    }
+  }
+
+  .higlights-feature-section .cards .card {
+    width: 96% !important;
+  }
+
+  //more about the section
+  .more-about-the-app {
+    width: 100% !important;
+    float: left;
+    .heading,
+    .sub-heading {
+      width: 100% !important;
+      float: left;
+    }
+    .about-content {
+      //display: none !important;
+     // background-color: brown;
+      .details{
+        padding-top: 5px !important;
+        //background-color: cornflowerblue;
+        width: 100% !important;
+          .head{
+           line-height: 1.5;
+           margin-bottom: 6px !important;
+           padding-bottom: 2px !important;
+           padding: 2px 15px 15px 15px !important;
+           //background-color: crimson;
+          }
+          .photo{
+            margin-top: 2px !important;
+            border-radius: 50% !important;
+            //background-color: darkgoldenrod;
+          }
+          li{
+            //background-color: darkgoldenrod !important;
+          }
+          li-image{
+            height: 50px !important;
+            width: 50px !important;
+             //background-color: rgb(21, 201, 45) !important;
+          }
+      }
+    }
+
+    .phone-container {
+      display: none;
+    }
+  }
+  //screenshots section
+  .screens {
+    display: none;
+  }
+  //screenshots on mobile view
+  .screenshots-on-mobile {
+    width: 100% !important;
+    float: left;
+    display: block !important;
+  }
+  .mobile-screens {
+    width: 100% !important;
+    text-align: center;
+  }
+  .screenshots-header{
+    width:100%;
+    float: left;
+    text-align: center;
+   }
+   span{
+     color: green;
+    
+   }
+   .h1{
+     padding-top: 0.5rem;
+     color: rgb(54, 194, 54);
+   }
+
+  //after more about the app section
+  .after-more-about-the-app {
+    padding: 0px !important;
+    width: 100% !important;
+    background-color: cornflowerblue !important;
+  }
+  .download-app {
+    min-width: 100% !important;
+    float: left !important;
+    display: block !important;
+  }
+  .button-container {
+    min-width: 100% !important;
+    float: left !important;
+    text-align: center !important;
+    //background-color:brown !important;
+    left: 0% !important;
+    //padding-left:2% !important;
+    //background-color: indigo;
+    padding: 0px !important;
+  }
+  .downloads-details {
+    width: 100% !important;
+  }
+  .downloads-details h1 {
+    line-height: 1;
+    text-transform: capitalize;
+    font-size: 25px !important;
+  }
+  .downloads-details p {
+    font-size: small;
+  }
+  .playstor {
+    width: 50% !important;
+    //background-color: lawngreen;
+    left: 0% !important;
+    text-align: center !important;
+    //margin-left: 2px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    padding: 15px 0px 15px 0px !important;
+  }
+  // contact us section
+  .contact-us-section {
+    width: 100% !important;
+    float: left !important;
+
+    .contact-us-container {
+      display: none;
+    }
+    .contact-container {
+    }
+  }
+  .contact-form-wrapper {
+    width: 300px !important;
+    margin-left: 25px;
+  }
+  .contact-form {
+    width: 300px !important;
+    padding: 4% !important;
+  }
+  //footer
+  .footer {
+    width: 100% !important;
+    float: left !important;
+  }
+}
+
+//laptop
+@media only screen   
+and (min-device-width : 768px) {
+  #mobile-view{
+    display: none !important;
+  }
+  .login-details{
+    margin-left: 26px;
+    color: black !important;
+  }
+  .location{
+    margin-left: 26px;
+    color: black !important;
+  }
+  #navbarNavAltMarkup{
+   
+    //padding-left: 20%;
+     right: 0%;
+     width: 100%;
+     float: left;
+    
+}
+
+.container-fluid{
+    width: 100%;
+    float: left;
+}
+.navbar-nav{
+    width: 100%;
+    padding-left: 9rem !important;
+    //background-color: black !important;
+
+
+}
+
+.about-content{
+   .details{
+     padding: 2% !important;
+   }
+}
+
+}
+//for desktop
+@media only screen and (min-width: 1370px)
+{ 
+  #navbarNavAltMarkup{
+   
+    //padding-left: 20%;
+     right: 0%;
+     width: 100%;
+     float: left;
+    
+    
+}
+
+.container-fluid{
+    width: 100%;
+    float: left;
+    
+}
+.navbar-nav{
+    width: 100%;
+    padding-left: 30rem !important;
+    //background-color: black !important;
+    text-align: right;
+
+} 
+
+}
+
+@media only screen and (max-width: 1450px)
+{
+  #navbarNavAltMarkup{
+   
+    //padding-left: 20%;
+     right: 0%;
+     width: 100%;
+     float: left;
+    //display: none !important;
+    
+    
+}
+//top section
+.top-section {
+  margin: 0;
+  height: 120vh !important;
+  padding: 0rem 0px 3rem 0px !important;
+  background-image: linear-gradient(to top right, rgb(29, 167, 36), #35ec1d);
+  z-index: 1;
+  display: flex;
+}
+//words
+.words {
+  margin-left: 17rem;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+  width: 50%;
+  //display:none;
+}
+.words h1 {
+  font-family: "Roboto", sans-serif;
+
+  font-weight: 1000;
+  font-size: 2rem !important;
+  //color:rgb(233, 230, 230);
+  text-transform: capitalize;
+  line-height: 1.2 !important;
+  color: white;
+}
+.mat {
+}
+.words h3 {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  color: rgb(233, 230, 230);
+}
+.pic img {
+  width: 280px !important;
+  height: 600px !important;
+}
+.pic {
+  width: 50%;
+  float: left;
+  text-align: center !important;
+  margin-top: auto !important;
+  margin-bottom: auto;
+  //display:none;
+
+}
+
+.here {
+  background-color: green;
+  height: 20vh;
+}
+//highlights features
+//highlights section
+.higlights-feature-section {
+  //background-image: url("../../../assets/payview5.PNG");
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 2% !important;
+  .header2{
+    padding-top: 0px !important;
+  }
+  
+  
+}
+
+.higlights-feature-section .hearder {
+  float: left;
+  width: 100%;
+}
+.higlights-feature-section .header h4 {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+.higlights-feature-section .header2 h1 {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: bolder;
+  outline: none;
+  border: none;
+  color: rgb(119, 192, 119);
+  text-transform: capitalize;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+.card {
+  width: 25%;
+  margin: 5px;
+  padding: 1%;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.6);
+
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.card:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+.card h1 {
+  text-transform: capitalize;
+}
+.card p {
+  color: black;
+}
+.card2 {
+  background-color: red;
+  width: 25%;
+  margin: 5px;
+}
+.card3 {
+  background-color: red;
+  width: 25%;
+  margin: 5px;
+}
+.card4 {
+  background-color: red;
+  width: 25%;
+  margin: 5px;
+}
+.header2 {
+  margin-top: 7rem;
+}
+.card i {
+  font-size: 40px !important;
+  color: rgb(47, 202, 47);
+  padding: 1.5% !important;
+}
+.cards p {
+  opacity: 60%;
+}//end 
+
+//more about the app
+.about-content{
+  .details{
+    mat-grid-list{
+     padding: 2%;
+    }
+  }
+}
+
+.container-fluid{
+    width: 100%;
+    float: left;
+    
+}
+.navbar-nav{
+    width: 100%;
+    padding-right: 10px !important;
+    //background-color: rgb(170, 49, 49) !important;
+    text-align: right;
+
+} 
+
+}
+
+@media only screen and  (min-width:1500px) {
+
+  .container-fluid{
+    .navbar-nav{
+      padding-left: 50rem !important;
+    }
+    //background-color: blue;
+    //background-color: black;
+    width: 100%;
+    float: left;
+    padding-left: 11rem !important;
+    img{
+        width: 60px;
+        height: 60px;
+        border-radius: 10%;
+    }
+    a{
+      text-decoration: none;   
+      
+    }
+}
+   
+}
+
+//on a laptop
+@media only screen and (max-width : 1400px) {
+
+  .top-section {
+    margin: 0;
+    height: 80vh;
+    padding-top: 10rem !important;
+    background-image: linear-gradient(to top right, rgb(29, 167, 36), #35ec1d);
+    z-index: 1;
+    display: flex;
+    //display: none !important;
+    .pic{
+      width: 50% !important;
+      padding-right: 4% !important;
+      padding-bottom: 3% !important;
+    }
+    .words{
+      width: 50% !important;
+    }
+    .pic img{
+      width: 600px !important;
+      height: 600px !important;
+    }
+    
+  }
+  
+
+  .container-fluid{
+    .navbar-nav{
+     // padding-left: 50rem !important;
+       //display: none !important;
+      padding-left: 20rem !important;
+     // background-color: #35ec1d;
+    }
+    //background-color: blue;
+    //background-color: black;
+    width: 100%;
+    float: left;
+    padding-left: 24rem !important;
+    
+    .logoFarming{
+        //background-color: #35ec1d;
+        //margin-left: -15rem !important;
+        //margin-bottom: -2px;
+    }
+    a{
+      text-decoration: none;   
+      margin-left: -20px !important;
+    }
+}
+
+.higlights-feature-section{
+  .card {
+    
+    width: 25%;
+    margin: 5px;
+    padding: 1%;
+   // box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.6);
+    //display: none;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  .card:hover {
+    transform:none !important;
+    transform: scale(1) !important;
+    z-index: -20 !important;
+  }
+  
+  
+}
+//more about the app
+.more-about-the-app {
+     
+       .mobile-heading-nore{
+         font-size: 40px !important;
+        // display: none;
+        text-transform: capitalize;
+       }
+       .sub-heading{
+         h1{
+           font-size: 20px;
+         }
+       }
+  }
+ //styling ng cards
+ .example-card{
+   width: 100%;
+  height: 100%;
+   margin: 20px 5px 5px 5px ;
+ 
+ }
+
+ mat-card-content{
+
+  height: 100%;
+  
+ }
+ mat-card-title{
+    text-transform: capitalize;
+    line-height: 1;
+ }
+ .navbar-nav a{
+     margin-right: -0.5rem !important;
+     //padding-right: 10px !important;
+     
+ }
+ .navbar-nav{
+   width: 100% !important;
+    //padding-right: -12px !important;
+   //background-color: black;
+   float: right !important;
+   margin-left: 15rem !important;
+ }
+
+.screens{
+  height: 100vh !important;
+}
+
+
+
+
+.contact-form-wrapper{
+  max-width: 100% !important;
+ float: left;
+  //margin: auto;
+  //background-color: #35ec1d;
+}
+.contact-form{
+    //padding-left: -10px !important;
+}
+
+//
+.navbar-nav{
+  width: 100% !important;
+   //padding-right: -12px !important;
+  //background-color: black;
+  //float: right !important;
+  margin-left: 10rem !important;
+  a{
+     margin-right: 20px !important;
+     font-size: 1rem !important;
+     
+  }
+  
+}
+
+.container-fluid{
+ // background-color: rgba(18, 204, 89, 0.418);
+  margin-left: -10rem !important;
+}
+
+
+.innovat{
+  margin-left: 17px !important;
+  margin-top:16px !important;
+  font-size: 1.3rem !important;
+}
+
+
+.screen-features{
+  h2{
+    padding-top: 8% !important;
+  }
+   .grid-image{
+     width:  200px !important;
+    
+   }
+}
+.screen-features2{
+   .grid-image{
+     width:  200px !important;
+    
+   }
+}
+
+
+
+.container-fluid{
+  //background-color: black;
+  width: 100%;
+  float: left;
+  img{
+      //width: 90px !important;
+      height:70px !important;
+
+      border-radius: 10%;
+      margin-left: -5rem;
+      object-fit: cover;
+      object-position: center;
+      
+  }
+  a{
+    text-decoration: none;   
+    //margin-right: 2.5rem !important;
+    //background-color: white;
+
+  }
+}
+
+
+
+
+
+
+
+
+}//end of laptop view
